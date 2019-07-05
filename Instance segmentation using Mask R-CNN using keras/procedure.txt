@@ -1,0 +1,16 @@
+Step 1:
+Downloading pre-trained model weights:
+
+> Double click on "weights.html" to download the pre-trained model weights which is used in our script.
+
+Step 2:
+Installing the dependencies from command prompt:
+
+> git clone https://github.com/matterport/Mask_RCNN.git
+> cd Mask_RCNN
+> python setup.py install
+
+Step 3:
+Executing from command prompt using python shell:
+
+> python mask_rcnn.py --labels coco_labels.txt --image<space><path address to the image> --weights mask_rcnn_coco.h5
