@@ -4,6 +4,8 @@
 3. Feature matching using ORB,SIFT keypoint descriptor and Brute force,Flann based matcher
 4. Image segmentation using Watershed algorithm
 5. Instance segmentation using MASK R-CNN
-
-
-All the Deep learning models are implemented in Keras library backed by Tensorflow
+6. Face Detection
+7. Facial landmarks calculation
+8. Face tracking
+9. Face recognition
+10. Object detection using yolo
